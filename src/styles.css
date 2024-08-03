@@ -1,0 +1,169 @@
+/* Contenedor principal de la aplicación */
+.app-container {
+    padding: 20px;
+    max-width: 1200px; /* Ajustado para pantallas grandes */
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Formulario de tareas */
+  .task-form {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en pantallas pequeñas */
+    gap: 10px; /* Espacio entre los elementos del formulario */
+    margin-bottom: 20px;
+  }
+  
+  .task-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .task-form button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-form button:hover {
+    background-color: #218838;
+  }
+  
+  /* Lista de tareas */
+  .task-list {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  /* Elementos individuales de la lista de tareas */
+  .task-item {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en pantallas pequeñas */
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .task-item span {
+    margin-right: 10px;
+    flex: 1;
+  }
+  
+  .task-item button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px; /* Ajusta el padding según tu preferencia */
+    font-weight: bold;
+  }
+  
+  /* Botón de editar */
+  .task-item button.edit-button {
+    background-color: #f1c40f; /* Amarillo */
+    color: black;
+  }
+  
+  .task-item button.edit-button:hover {
+    background-color: #f39c12; /* Amarillo más oscuro al pasar el mouse */
+  }
+  
+  /* Botón de eliminar */
+  .task-item button.delete-button {
+    background-color: #e74c3c; /* Rojo */
+    color: white;
+  }
+  
+  .task-item button.delete-button:hover {
+    background-color: #c0392b; /* Rojo más oscuro al pasar el mouse */
+  }
+  
+  /* Resumen de tareas */
+  .task-summary {
+    margin-top: 20px;
+  }
+  
+  /* Modal de tarea */
+  .task-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 90%;
+    width: 400px; /* Ancho máximo del modal */
+  }
+  
+  .modal-actions button {
+    margin: 0 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .modal-actions button:first-child {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .modal-actions button:nth-child(2) {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .modal-actions button:last-child {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .task-form {
+      flex-direction: column;
+    }
+  
+    .task-form input,
+    .task-form button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .task-item {
+      flex-direction: column;
+    }
+  
+    .task-item span {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+  
+    .modal-content {
+      width: 90%;
+    }
+  }
+  
+  /* Estilos para pantallas grandes, como smart TVs */
+  @media (min-width: 1200px) {
+    .app-container {
+      max-width: 100%;
+      padding: 40px;
+    }
+  }
+  
