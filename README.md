@@ -17,6 +17,12 @@ Este tutorial te guiará a través de la creación de una aplicación de Lista d
 6. **Diseño responsivo**: La aplicación está diseñada para funcionar bien en diferentes tamaños de pantalla.
 7. **Aplicación del mundo real**: Las listas de tareas son algo que la gente usa a diario, lo que hace que este sea un proyecto práctico y relevante.
 
+## App Funcionando:
+
+![CAPTURA # 1](TODO_LIST.png)
+
+![CAPTURA # 2](TODO_LIST1.png)
+
 ## Prerrequisitos
 
 Antes de comenzar este tutorial, deberías tener:
