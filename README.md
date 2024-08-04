@@ -21,7 +21,7 @@ Este tutorial te guiará a través de la creación de una aplicación de Lista d
 
 ![CAPTURA # 1](TODO_LIST.png)
 
-![CAPTURA # 2](TODO_LIST1.png)
+![CAPTURA # 2](TODO_LIST_1.png)
 
 ## Prerrequisitos
 
