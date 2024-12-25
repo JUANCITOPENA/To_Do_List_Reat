@@ -23,6 +23,7 @@ Este tutorial te guiará a través de la creación de una aplicación de Lista d
 
 ![CAPTURA # 2](TODO_LIST_1.png)
 
+
 ## Prerrequisitos
 
 Antes de comenzar este tutorial, deberías tener:
